@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src https://api.github.com; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="description" content="Lade die aktuelle Android-Version von Nova Strike herunter.">
+  <title>Nova Strike · Android-Download</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="download.js" defer></script>
+</head>
+<body>
+  <main>
+    <div class="crest" aria-hidden="true">✦</div>
+    <p class="eyebrow">DEIN ABENTEUER BEGINNT</p>
+    <h1>NOVA <span>STRIKE</span></h1>
+    <section class="panel" aria-labelledby="download-title">
+      <p class="eyebrow">OFFIZIELLER ANDROID-DOWNLOAD</p>
+      <h2 id="download-title">Bereit zum Abflug?</h2>
+      <p id="status" role="status" aria-live="polite">Hier erhältst du die neueste Android-Version.</p>
+      <p id="version" class="version"></p>
+      <a id="download" class="button" href="https://github.com/pbrosvsanubias-star/nova-strike-updates/releases/latest">Downloads öffnen <span aria-hidden="true">↓</span></a>
+      <p class="hint">Startet der Download nicht von selbst, tippe auf den Download-Button.</p>
+      <p class="install">Öffne danach die APK und bestätige die Installation in Android. Bei einem Update das vorhandene Spiel vorher nicht deinstallieren.</p>
+      <noscript><p>Bitte tippe auf „Downloads öffnen“ und wähle dort die APK aus.</p></noscript>
+      <details id="notes" hidden>
+        <summary>Was ist neu?</summary>
+        <pre id="notes-text"></pre>
+      </details>
+    </section>
+    <a class="release-link" href="https://github.com/pbrosvsanubias-star/nova-strike-updates/releases/latest">Alle Dateien &amp; Update-Notizen auf GitHub ↗</a>
+    <p class="footer">Android 8.0 oder neuer · Kein GitHub-Konto nötig</p>
+  </main>
+</body>
+</html>

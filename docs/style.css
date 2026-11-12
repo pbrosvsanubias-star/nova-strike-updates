@@ -1,0 +1,24 @@
+:root { color-scheme: dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #d8e7f2; background: #050a18; }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100svh; background: radial-gradient(ellipse at 4% 18%, #52277c88, transparent 50%), radial-gradient(ellipse at 100% 70%, #18497666, transparent 50%), #050a18; }
+main { width: min(100% - 36px, 480px); margin: auto; padding: 36px 0 24px; text-align: center; }
+.crest { width: 72px; height: 80px; display: grid; place-items: center; margin: 0 auto 20px; color: #91ebff; font-size: 48px; background: linear-gradient(145deg, #577b95, #f7da8f 45%, #19384b 46%, #081222); clip-path: polygon(50% 0, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%); }
+.eyebrow { font-size: 9px; font-weight: 800; letter-spacing: .2em; color: #9fbdd0; }
+h1 { font-style: italic; font-weight: 950; letter-spacing: .08em; font-size: clamp(44px, 12vw, 68px); line-height: .98; color: white; margin: 16px 0 36px; text-shadow: 0 2px 20px #a9d5ff28; }
+h1 span { display: block; color: #f5d281; font-size: .81em; letter-spacing: .13em; margin-top: 8px; }
+.panel { padding: 24px 22px; border: 1px solid #7aa6bb80; border-radius: 22px; background: linear-gradient(150deg, #1c3548d9, #0a1428e8); box-shadow: inset 0 1px #d8faff33, 0 20px 60px #0006; }
+h2 { font-size: 26px; line-height: 1.1; font-style: italic; color: #ffe4a7; margin: 12px 0 18px; }
+#status { font-size: 14px; line-height: 1.6; }
+.version { color: #b9deee; font-size: 13px; min-height: 19px; margin: 16px 0; }
+.button { display: flex; justify-content: center; gap: 18px; align-items: center; min-height: 58px; padding: 14px 16px; border: 1px solid #fff0b5; border-radius: 13px; color: #122137; background: linear-gradient(115deg, #ffebaf, #d5a94f); box-shadow: inset 0 2px #fff8, 0 4px 0 #755826; font-weight: 850; text-decoration: none; }
+.button:hover { filter: brightness(1.08); }
+a:focus-visible, summary:focus-visible { outline: 3px solid #8be8ff; outline-offset: 5px; }
+.hint, .install { font-size: 12px; line-height: 1.6; color: #a8c2d3; }
+.hint { margin: 20px 0 16px; }
+.install { padding-top: 16px; border-top: 1px solid #8eaac72b; margin-bottom: 0; }
+details { margin-top: 22px; text-align: left; font-size: 13px; }
+summary { cursor: pointer; color: #ffe4a7; padding: 6px 0; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; font: inherit; line-height: 1.65; }
+.release-link { display: inline-block; margin-top: 24px; font-size: 12px; color: #addbec; }
+.footer { font-size: 11px; color: #8da9bd; line-height: 1.5; }
+@media (max-width: 350px) { main { width: calc(100% - 24px); padding-top: 24px; } .panel { padding: 22px 16px; } h2 { font-size: 23px; } }

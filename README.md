@@ -4,6 +4,10 @@ Offizielle Android-Downloads und deutsche Update-Notizen für Nova Strike.
 
 ## ⬇️ Aktuelle Version
 
+[Direkter APK-Download](https://pbrosvsanubias-star.github.io/nova-strike-updates/)
+
+Der QR-Code öffnet diese feste Adresse und fordert automatisch die APK der neuesten Veröffentlichung an. Falls dein Browser den automatischen Start blockiert, tippe dort auf „APK herunterladen“. Android bestätigt anschließend die Installation.
+
 [Zur neuesten Veröffentlichung](https://github.com/pbrosvsanubias-star/nova-strike-updates/releases/latest)
 
 Lade dort die Datei `Nova-Strike-<Version>.apk` herunter. Die passende Textdatei beschreibt die Neuerungen.
